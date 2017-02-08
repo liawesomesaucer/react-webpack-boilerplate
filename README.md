@@ -26,7 +26,7 @@ Make sure you have the latest node version before using Webpack 2.
 ## Dev Setup
 
 ```
-npm i
+npm install
 ```
 On one tab:
 ```
@@ -40,7 +40,7 @@ Runs on localhost:8888
 
 ## Production setup
 ```
-npm i
+npm install
 ```
 ```
 npm start
