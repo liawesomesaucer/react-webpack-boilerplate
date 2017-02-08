@@ -19,6 +19,7 @@ We noticed that not many boilerplates contain the latest versions for the below 
 - [x] [Linting]
 - [x] [Google analytics]
 - [x] [404s]
+- [x] [Server Side Rendering]
 
 Make sure you have the latest node version before using Webpack 2.
 
