@@ -3,7 +3,7 @@
 
 Simple boilerplate that uses all the most up to date dependencies.
 
-## Why create a boilerplate, there are so many already?
+## Why create a boilerplate there are so many already?
 
 At SoloMid, we decided to open source a simple, most up to date, beginner-friendly React boilerplate. There are more comprehensive boilerplates out there (e.g. [react-boilerplate](https://github.com/react-boilerplate/react-boilerplate)), however this is the boilerplate that worked for us and includes the most basic needs for a scalable web app. 
 
