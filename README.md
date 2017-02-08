@@ -4,7 +4,7 @@ Simple boilerplate that uses all the most up to date dependencies.
 
 ## Why create a boilerplate, there are so many already?
 
-We noticed that not many contain the latest versions for the below listed dependencies, so we just pushed this out. It's also a great way for beginners to learn bare bones of what's needed for a "production ready" web app.
+We noticed that not many boilerplates contain the latest versions for the below listed dependencies, so we just pushed this highly scalable boilerplate out. It's also a great way for beginners to learn bare-bones of what's needed for a "production ready" web app.
 
 ## Browsers support
 
