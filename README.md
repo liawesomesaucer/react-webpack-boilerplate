@@ -44,3 +44,7 @@ npm i
 npm start
 ```
 Runs on localhost:8888
+
+## License
+
+MIT © [Adil Virani](http://twitter.com/TSMHaiyaku)
