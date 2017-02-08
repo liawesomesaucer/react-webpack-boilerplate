@@ -54,5 +54,5 @@ function getHandleRender() {
 }
 
 app.listen(port, function() {
-    console.info(`🌎  Listening on port ${port} in ${process.env.NODE_ENV} mode on Node ${process.version}.`);
+  console.info(`🌎  Listening on port ${port} in ${process.env.NODE_ENV} mode on Node ${process.version}.`);
 })
