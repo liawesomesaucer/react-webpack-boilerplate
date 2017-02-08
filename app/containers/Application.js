@@ -17,8 +17,8 @@ export const routes = (
 export default class Application extends React.Component {
   render() {
     return (
-      <Provider store={ this.props.store }>
-        <Router history={ this.props.history } onUpdate={()=>{}}>
+      <Provider store={this.props.store}>
+        <Router history={this.props.history} onUpdate={() => {}}>
           {routes}
         </Router>
       </Provider>

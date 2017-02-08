@@ -1,10 +1,9 @@
 import React from 'react';
-import {connect} from 'react-redux';
-
+import { connect } from 'react-redux';
 
 function mapStateToProps(state){
   return {
-    main : state.main
+    main: state.main
   };
 }
 export default connect(mapStateToProps)(function(props){
