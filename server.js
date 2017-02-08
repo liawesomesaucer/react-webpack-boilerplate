@@ -3,10 +3,7 @@ require('dotenv').config();
 var path = require('path');
 var express = require('express');
 var session = require('express-session');
-var bodyParser = require('body-parser');
 var compression = require('compression');
-var fetch = require('isomorphic-fetch');
-var qs = require('querystring');
 var React = require('react');
 var Router = require('react-router');
 var routes = require('./app/containers/Application').routes;
@@ -21,11 +18,6 @@ var staticPath = isDevelopment ? path.join(__dirname, '/app') : path.join(__dirn
 const S_IN_YR = 31536000;
 app.use(express.static(staticPath, { maxAge: S_IN_YR}));
 app.use(compression());
-app.use(bodyParser.json());
-app.use(bodyParser.raw());
-app.use(bodyParser.urlencoded({
-  extended: true
-}));
 
 app.set('trust proxy', true);
 

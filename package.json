@@ -32,7 +32,6 @@
     "babel-preset-react-hmre": "^1.1.1",
     "babel-preset-stage-0": "^6.22.0",
     "babel-register": "^6.22.0",
-    "body-parser": "^1.16.0",
     "compression": "^1.6.2",
     "copy-webpack-plugin": "^4.0.1",
     "debug": "^2.6.0",
