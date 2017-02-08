@@ -16,7 +16,7 @@ var app = express();
 var port = process.env.PORT || 8888;
 var staticPath = isDevelopment ? path.join(__dirname, '/app') : path.join(__dirname, '/dist');
 const S_IN_YR = 31536000;
-app.use(express.static(staticPath, { maxAge: S_IN_YR}));
+app.use(express.static(staticPath, { maxAge: S_IN_YR }));
 app.use(compression());
 
 app.set('trust proxy', true);
@@ -33,12 +33,12 @@ function getHandleRender() {
   return function handleRender(req, res) {
     debug(`req.session.id is ${req.session.id}`);
     match({ routes, location: req.url }, function(error, redirectLocation, renderProps) {
-      if(error) {
+      if (error) {
         debug("[match]: error", error);
-        res.status(500).send(error.message)
+        res.status(500).send(error.message);
       } else if (redirectLocation) {
         debug("[match]: redirectLocation", redirectLocation);
-        res.redirect(302, redirectLocation.pathname + redirectLocation.search)
+        res.redirect(302, redirectLocation.pathname + redirectLocation.search);
       } else if (renderProps) {
         if (typeof renderProps.routes[1] !== 'undefined' && renderProps.routes[1].status == 404) {
           res.status(404).sendFile(indexFile);
@@ -54,5 +54,5 @@ function getHandleRender() {
 }
 
 app.listen(port, function() {
-  console.info(`🌎  Listening on port ${port} in ${process.env.NODE_ENV} mode on Node ${process.version}.`)
+    console.info(`🌎  Listening on port ${port} in ${process.env.NODE_ENV} mode on Node ${process.version}.`);
 })

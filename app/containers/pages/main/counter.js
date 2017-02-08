@@ -4,7 +4,7 @@ import {inc,dec} from '../../../actions/counter';
 
 function mapStateToProps(state){
   return {
-    counter : state.counter
+    counter: state.counter
   };
 }
 
@@ -19,9 +19,9 @@ export function Counter(props){
 }
 
 Counter.propTypes = {
-  counter : PropTypes.object.isRequired,
-  inc : PropTypes.func,
-  dec : PropTypes.func,
+  counter: PropTypes.object.isRequired,
+  inc: PropTypes.func,
+  dec: PropTypes.func,
 }
 
-export default connect(mapStateToProps,{inc,dec})(Counter)
+export default connect(mapStateToProps, { inc, dec })(Counter)
