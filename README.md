@@ -1,5 +1,6 @@
 # React + Webpack 2 + Redux Boilerplate
 ![Alt text](/boilerplatever2.png?raw=true)
+
 Simple boilerplate that uses all the most up to date dependencies.
 
 ## Why create a boilerplate, there are so many already?
